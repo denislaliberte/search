@@ -1,0 +1,3 @@
+session_id | session_id(); |  [PHP: session_id - Manual](http://php.net/manual/en/function.session-id.php)
+translate function
+query get post by type | new WP_query( array( 'post_type' => array('my_type') ) )->posts;  | http://wordpress.stackexchange.com/a/6418

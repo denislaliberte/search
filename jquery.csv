@@ -1,0 +1,10 @@
+remove child | .empty() 
+asynch http call | jQuery.ajax( url [, settings ] )  | http://bit.ly/1Rp6Tbi
+ajax done vs succes | succes est deprecate
+ajax always statusCode redirect | .always(function( data, textStatus, jqXHR_errorThrown ) {  if (textStatus === 'success') { console.log(data.status); } else { console.log(jqXHR_errorThrown.status); }} | http://stackoverflow.com/a/24838789
+done
+jqXHR wrong status code 200 instead of 302 in a redirection | the status code is the one after the redirection 200, can't have the original 302  | http://stackoverflow.com/a/343359
+add disabled to element | .prop( "disabled", true ); | http://bit.ly/1MbtDZ8
+on click | .click(function(){ console.log("asdf");}); | https://api.jquery.com/click/
+on click checkbox |.change(function(){console.log("asdf");}); | http://stackoverflow.com/a/7031408
+ajaxComplete |.ajaxComplete() | http://bit.ly/1P8moQ0

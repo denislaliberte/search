@@ -1,0 +1,2 @@
+search in commit message |  http://stackoverflow.com/a/3826800 | git log --grep=<pattern> 
+log file |http://stackoverflow.com/a/5493663 |  git log --follow -p -- file 

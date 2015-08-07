@@ -1,0 +1,10 @@
+array get the first item        | http://bit.ly/1W6a0ov  |   $a = [1,2]; $b = array_pop($a);   |    assert("$a[0] ==1 && $b == 2");
+array test if value is in array | http://bit.ly/1W6a7An  |   $a = in_array(1, [1,2]);   |   assert("$a");
+array to csv                     |   http://bit.ly/1MppI9T |  $file = new SplFileObject('file.csv', 'w'); $file->fputcsv(['a','b','c','e']); | assert("file('file.csv')[0]=='a,b,c,e\n'");
+constant end of line            | http://bit.ly/1W6aDOT  |   PHP_EOL;   |  
+cookie read                    |  http://bit.ly/1W6adbl | $_COOKIE["your_cookie_name"];   |
+cookie set                     |  http://bit.ly/1W6avyN   |   setcookie($name, $value, $expire );   |
+curl_setopt boolean true cast to 1   |  http://bit.ly/1fhSkVB |
+session set get id              |    http://bit.ly/1W6azi2  |   session_id(1); $a = session_id   | assert("$a ==1");
+sleep                           |   http://bit.ly/1W6aFpS |  sleep ( $seconds );   |
+SplFileObject                   |    http://bit.ly/1Mpqq6Y | $a = new SplFileObject();   |

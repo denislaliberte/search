@@ -1,0 +1,11 @@
+test if function is defined | typeof(callback) == "function" |
+append to array | Array.push( item ); |   [ Array.prototype.push() - JavaScript  MDN - Mozilla Developer Network ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+aria-controls | aria-controls="" | [ ARIA Live Regions - Accessibility  MDN ](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions)
+redirect | window.location = "asdf.com"; | http://mzl.la/1CBcKUc
+sort dictionnary by key |  a = {1.4:'a', 1.3: "b"}; Object.keys(a).sort(); | http://stackoverflow.com/a/890829
+get dictionary keys | a = {1.2:'a', 1.3: "b"}; Object.keys(a); | http://mzl.la/1Mu9f4j
+filter first x element of array |b = [1,2,3,4,5]; b.slice(0,3); | http://mzl.la/1Mu9NqM
+slice x to last | b = [1,2,3,4,5]; b.slice(2); | http://stackoverflow.com/a/14395068
+gmap map change marker icon |marker.setIcon('newImage.png') |http://stackoverflow.com/a/1941317
+cast string to float |parseFloat("1.1") |http://mzl.la/1LRX94s
+closure recursive call | var asdf = function() {console.log("asdf"); asdf();}

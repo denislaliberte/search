@@ -1,0 +1,8 @@
+hook preprocess page | hook_preprocess_page
+drupal_goto code 301 redirection | drupal_goto($path = '', $options = array(), $http_response_code = 302); | http://bit.ly/1Sjrw3V
+drupal_set_message |drupal_set_message($message = NULL, $type = 'status', $repeat = TRUE); | http://bit.ly/1dYjuj6
+get messages |drupal_get_messages($type = NULL, $clear_queue = TRUE); | http://bit.ly/1O4uwzL
+theme status message| theme_status_messages(); | http://bit.ly/1CEhTes
+form ajax js api option complete return  |Drupal.ajax['edit-submit'].options.complete = function (form_values, element, options) { console.log('after'); };| http://drupal.stackexchange.com/a/81079
+Number of elements must be positive query.inc:80
+7 db_insert values fields
