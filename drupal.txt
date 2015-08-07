@@ -1,2 +1,0 @@
-query insert defaultFields array_fill
-query insert defaultFields array_fill
