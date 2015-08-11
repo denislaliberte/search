@@ -8,3 +8,7 @@ curl_setopt boolean true cast to 1   |  http://bit.ly/1fhSkVB |
 session set get id              |    http://bit.ly/1W6azi2  |   session_id(1); $a = session_id   | assert("$a ==1");
 sleep                           |   http://bit.ly/1W6aFpS |  sleep ( $seconds );   |
 SplFileObject                   |    http://bit.ly/1Mpqq6Y | $a = new SplFileObject();   |
+
+string length                   |  http://bit.ly/1DD71xP | $a = strlen("1234");    |   assert($a == 4 );
+function is defined             | | $a = function_exists('function_exists');  | assert($a);
+array split slice               | http://bit.ly/1NnNWQ9  | $a = array_slice([1,2,3],0,1);  |  assert($a ==[1]);

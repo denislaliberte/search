@@ -1,0 +1,1 @@
+change varchar length  |  http://stackoverflow.com/a/1279596  |  ALTER TABLE <table_name> MODIFY <col_name> VARCHAR(65536); 

@@ -4,5 +4,9 @@ drupal_set_message |drupal_set_message($message = NULL, $type = 'status', $repea
 get messages |drupal_get_messages($type = NULL, $clear_queue = TRUE); | http://bit.ly/1O4uwzL
 theme status message| theme_status_messages(); | http://bit.ly/1CEhTes
 form ajax js api option complete return  |Drupal.ajax['edit-submit'].options.complete = function (form_values, element, options) { console.log('after'); };| http://drupal.stackexchange.com/a/81079
-Number of elements must be positive query.inc:80
-7 db_insert values fields
+7 execute sql statement |  http://bit.ly/1MgukPm  |  db_query("show tables");
+7 submit_driven_callback  |  http://bit.ly/1DG1SoU
+submit_driven_callback element return information
+7 form api ajax  |  http://bit.ly/1DG337H  
+7 ajax form debug statement
+7 ajax form add status to json
