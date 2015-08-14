@@ -10,3 +10,7 @@ submit_driven_callback element return information
 7 form api ajax  |  http://bit.ly/1DG337H  
 7 ajax form debug statement
 7 ajax form add status to json
+7 function user is logged in | http://bit.ly/1Txeq90 | user_is_logged_in();
+7 validate user role  | http://bit.ly/1LbQ7c9 | user_has_role($rid, $account = NULL);
+7 constant role authenticated user 2 | http://bit.ly/1TC4ZQo | DRUPAL_AUTHENTICATED_RID
+7 get module path | http://bit.ly/1Lb1PRI | drupal_get_path($type, $name);

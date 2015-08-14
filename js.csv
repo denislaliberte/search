@@ -9,3 +9,7 @@ slice x to last | b = [1,2,3,4,5]; b.slice(2); | http://stackoverflow.com/a/1439
 gmap map change marker icon |marker.setIcon('newImage.png') |http://stackoverflow.com/a/1941317
 cast string to float |parseFloat("1.1") |http://mzl.la/1LRX94s
 closure recursive call | var asdf = function() {console.log("asdf"); asdf();}
+regex tester | https://regex101.com/#javascript
+regex letter | /^[A-Z]$/i.test('s')
+regex d digit | /^\d$/i.test('1')
+regex zip code postal | /^([A-Z]\d){3}$/i.test('h0h0h0')

@@ -15,3 +15,10 @@ array split slice               | http://bit.ly/1NnNWQ9  | $a = array_slice([1,2
 array test in array             |                         | $a = in_array(1,[1]); | assert($a);
 class self create children class instance in parent method |     | new static(); | php/static.php
 class get class name  | http://bit.ly/1IHSEag | $a = get_class(new stdClass());  | assert($a == 'stdClass');
+regex any letter  | http://bit.ly/1N5A5B3  |   $a =  preg_match( '/^\pL*$/', 'AabBxX'); | assert($a == 1);
+regex any number  | http://bit.ly/1N5A5B3  |  $a =  preg_match( '/^\pN*$/', '1234567890'); assert($a == 1);
+regex postal code | |  $a =  preg_match( '/^(\pL\pN){3}$/', 'h0h0H0'); assert($a == 1);
+string remove withe space inside string |  http://stackoverflow.com/a/2109339/1318727  |    $a = str_replace( ' ', '', 'b c');  |  assert($a == 'bc');
+string trime withe space |  |  $a = trim('   b  ');  |  assert($a == 'b');
+class constant  |  http://bit.ly/1PnV2p9  | class a{ const B = 'c'; }; | assert(a::B == 'c');
+array count size length | http://bit.ly/1MrTYST | $a = count([1,2,3]); | assert($a=3);
